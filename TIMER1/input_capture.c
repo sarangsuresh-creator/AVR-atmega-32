@@ -13,8 +13,8 @@
 int i=0;
 
 void main(void) {
-    DDRB = 0X00;
-    PORTB = 0x00;
+    DDRD = 0X00;
+    PORTD = 0x00;
     TCCR1A = 0X00;
     TCCR1B = 0x45;
     
