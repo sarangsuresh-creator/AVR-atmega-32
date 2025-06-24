@@ -15,7 +15,7 @@ void main(void) {
     DDRB = 0Xff;
     PORTB = 0x00;
     TCCR0 = 0X15;
-    TCNT0 = 177;
+    TCNT0 = 0;
     OCR0 = 150;
     while(1);  
     
